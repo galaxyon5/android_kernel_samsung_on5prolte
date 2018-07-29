@@ -9,8 +9,7 @@ JOBS=-j$(nproc)
 export PATH=/home/arykedare/arm-eabi-4.8/bin:$PATH
 export KBUILD_BUILD_USER="aryankedare"
 export KBUILD_BUILD_HOST="devilsworkshop"
-DEVICE="aio_row"
-CONFIG="o5lteswa_00_defconfig"
+CONFIG="lineage_on5prolte_defconfig"
 
  echo "$red *******************************"
                 echo "$green*    Compilation in Progress    *"
