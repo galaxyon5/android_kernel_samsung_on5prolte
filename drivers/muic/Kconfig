@@ -54,7 +54,7 @@ config MUIC_UART_SWITCH
 config MUIC_UNIVERSAL
   	bool "UNIVERSAL MUIC"
 	depends on USE_MUIC
-	default n
+	default y
 	help
 	  If you say yes here you will get support for various MUIC chips.
 
